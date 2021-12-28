@@ -17,7 +17,7 @@ fn draw_hangman(guesses_remaining: u8) {
 |      {}{}{}
 |      {} {}
 |
-------------------",
+-----------------",
              if guesses_remaining < 6 { "O" } else { " " },
              if guesses_remaining < 4 { "/" } else { " " },
              if guesses_remaining < 5 { "|" } else { " " },
